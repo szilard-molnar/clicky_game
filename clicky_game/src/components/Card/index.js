@@ -6,7 +6,7 @@ const Card = (props) => {
         <div className="card">
             <div className="img-container">
             <img
-                alt="Yawning animal"
+                alt="cartoon character"
                 src={props.image}
             />
             </div>

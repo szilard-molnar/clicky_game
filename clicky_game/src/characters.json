@@ -2,72 +2,72 @@
     {
         "id": 1,
         "name": "animal1",
-        "image": "https://i.pinimg.com/originals/55/89/3f/55893f533483b53c3d5fc8361487e5c2.jpg"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2015/01/29/29-archer.w700.h700.jpg"
     },
 
     {
         "id": 2,
         "name": "animal2",
-        "image": "#"
+        "image": "http://1.bp.blogspot.com/-lvAJQwRl_t8/VG7y2p84ESI/AAAAAAAAUk4/cZLkheBJSR4/s1600/archer_500x500.jpg"
     },
 
     {
         "id": 3,
         "name": "animal3",
-        "image": "#"
+        "image": "https://studybreaks.com/wp-content/uploads/2018/08/o-ARCHER-HUMAN-MODELS-facebook-500x500.jpg"
     },
 
     {
         "id": 4,
         "name": "animal4",
-        "image": "#"
+        "image": "http://www4.pictures.zimbio.com/mp/kHoyq4whJW6l.jpg"
     },
 
     {
         "id": 5,
         "name": "animal5",
-        "image": "#"
+        "image": "https://i.imgur.com/5zh8tHw.jpg"
     },
 
     {
         "id": 6,
         "name": "animal6",
-        "image": "#"
+        "image": "https://media.kidozi.com/unsafe/600x600/img.kidozi.com/design/600/600/0a0909/95653/677b1f878572cd0de1eab64722fecb9c.png.jpg"
     },
 
     {
         "id": 7,
         "name": "animal7",
-        "image": "#"
+        "image": "https://i.imgflip.com/1zeobo.jpg"
     },
 
     {
         "id": 8,
         "name": "animal8",
-        "image": "#"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2016/04/21/recaps/21-archer.w700.h700.jpg"
     },
 
     {
         "id": 9,
         "name": "animal9",
-        "image": "#"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2016/04/07/recaps/07-archer.w700.h700.jpg"
     },
 
     {
         "id": 10,
         "name": "animal10",
-        "image": "#"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/04/25/recaps/25-archer-901.w700.h700.jpg"
     },
 
     {
         "id": 11,
         "name": "animal11",
-        "image": "#"
+        "image": "https://filmgoblin.com/wp-content/uploads/2019/04/archer-1999-trailer-2.jpg"
     },
 
     {
         "id": 12,
         "name": "animal12",
-        "image": "#"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/06/06/recaps/06-archer-907.w1200.h1200.jpg"
     }
 ]
