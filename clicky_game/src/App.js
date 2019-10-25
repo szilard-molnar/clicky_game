@@ -7,13 +7,19 @@ import Card from "./components/Card";
 
 class App extends Component {
   state = {
-    characters: characters
+    characters: characters,
+    score: 0,
+    highscore: 0
   }
+
+gameOver = () => {
+
+}
 
 render() {
   return (
     <Wrapper>
-      <Title>Memory Game with React</Title>
+      <Title score={this.state.score} highscore={this.state.highscore}>Memory Game with React</Title>
       {this.state.characters.map(
         character => (
           <Card 

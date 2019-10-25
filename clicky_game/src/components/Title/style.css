@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(42, 175, 177);
+}
+
+.scores {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
