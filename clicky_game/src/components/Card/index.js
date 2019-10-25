@@ -8,6 +8,7 @@ const Card = (props) => {
             <img 
                 alt="cartoon character"
                 src={props.image}
+                onClick={() => props.onClick(props.id)}
             />
             </div>
         </div>
