@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "animal1",
+        "image": "https://i.pinimg.com/originals/55/89/3f/55893f533483b53c3d5fc8361487e5c2.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "animal2",
+        "image": "#"
+    },
+
+    {
+        "id": 3,
+        "name": "animal3",
+        "image": "#"
+    },
+
+    {
+        "id": 4,
+        "name": "animal4",
+        "image": "#"
+    },
+
+    {
+        "id": 5,
+        "name": "animal5",
+        "image": "#"
+    },
+
+    {
+        "id": 6,
+        "name": "animal6",
+        "image": "#"
+    },
+
+    {
+        "id": 7,
+        "name": "animal7",
+        "image": "#"
+    },
+
+    {
+        "id": 8,
+        "name": "animal8",
+        "image": "#"
+    },
+
+    {
+        "id": 9,
+        "name": "animal9",
+        "image": "#"
+    },
+
+    {
+        "id": 10,
+        "name": "animal10",
+        "image": "#"
+    },
+
+    {
+        "id": 11,
+        "name": "animal11",
+        "image": "#"
+    },
+
+    {
+        "id": 12,
+        "name": "animal12",
+        "image": "#"
+    }
+]
