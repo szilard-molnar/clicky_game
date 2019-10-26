@@ -14,40 +14,62 @@ class App extends Component {
 
 clickEvent = (id) => {
   //alert("Archer clicked");
-  //after click "score" should always be +1
-    this.setState({
-      score: this.state.score + 1,
-      clicked: true
-    });
-  //set highscore if score is greater to highscore (needs to be fixed)
-  if(this.state.score > this.state.highscore)
-  {
-    this.setState({highscore: this.state.score})
-  }
-  if(this.state.score === 12)
-  {
-    alert("Congratulations, you win!");
-    this.setState({score: 0})
-  }
-  // after clicking an image put all images into random order
-  
+
+    this.clickedArcher(id);
 }
 
-/* shuffleImages = (arr) => 
+clickedArcher = (id) => {
+  this.setState({
+    characters: characters.map(character => {
+      if(character.id === id && character.clicked === false)
+      {
+        //alert("this one exist " + id);
+        character.clicked = true;
+      }
+      else if(character.id===id && character.clicked === true)
+      {
+        this.gameOver();
+      }
+    })
+  })
+  this.shuffleArcher();
+}
+
+gameReset = () => {
+  //alert("let's reset the game");
+  this.setState({score: 0});
+}
+
+gameOver = () => {
+  alert("you lost");
+  this.gameReset();
+  //also need to shake wrapper
+}
+
+shuffleArcher = (id) => {
+  this.setState({characters: this.shuffleImages(this.state.characters)});
+  console.log("shuffleArcher is happening now");
+}
+
+shuffleImages = (arr) => 
 {
     return arr.sort((a,b)=>Math.floor(Math.random()*1000)>500?1:-1);
-} */
+}
+
+updateScore = () => {
+
+}
 
 
 render() {
   return (
     <Wrapper>
       <Title score={this.state.score} highscore={this.state.highscore}>Memory Game with React</Title>
-      {this.state.characters.map(
+      {characters.map(
         character => (
           <Card 
-          key={character.id}
           id={character.id}
+          key={character.id}
           image={character.image}
           onClick={this.clickEvent}
           clicked={character.clicked}
