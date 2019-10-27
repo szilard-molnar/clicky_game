@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/clicky-game/static/css/main.c4e71275.chunk.css",
-    "main.js": "/clicky-game/static/js/main.d4388b7a.chunk.js",
-    "main.js.map": "/clicky-game/static/js/main.d4388b7a.chunk.js.map",
-    "runtime-main.js": "/clicky-game/static/js/runtime-main.72488328.js",
-    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.72488328.js.map",
-    "static/js/2.c6b60a1d.chunk.js": "/clicky-game/static/js/2.c6b60a1d.chunk.js",
-    "static/js/2.c6b60a1d.chunk.js.map": "/clicky-game/static/js/2.c6b60a1d.chunk.js.map",
-    "index.html": "/clicky-game/index.html",
-    "precache-manifest.1f469c23f8366dd0d5c7ac5c7cb03565.js": "/clicky-game/precache-manifest.1f469c23f8366dd0d5c7ac5c7cb03565.js",
-    "service-worker.js": "/clicky-game/service-worker.js",
-    "static/css/main.c4e71275.chunk.css.map": "/clicky-game/static/css/main.c4e71275.chunk.css.map"
+    "main.css": "/clicky_game/static/css/main.c4e71275.chunk.css",
+    "main.js": "/clicky_game/static/js/main.9b6b4135.chunk.js",
+    "main.js.map": "/clicky_game/static/js/main.9b6b4135.chunk.js.map",
+    "runtime-main.js": "/clicky_game/static/js/runtime-main.510c5f55.js",
+    "runtime-main.js.map": "/clicky_game/static/js/runtime-main.510c5f55.js.map",
+    "static/js/2.c6b60a1d.chunk.js": "/clicky_game/static/js/2.c6b60a1d.chunk.js",
+    "static/js/2.c6b60a1d.chunk.js.map": "/clicky_game/static/js/2.c6b60a1d.chunk.js.map",
+    "index.html": "/clicky_game/index.html",
+    "precache-manifest.287ab45d9e091ec5d34ed63212506a73.js": "/clicky_game/precache-manifest.287ab45d9e091ec5d34ed63212506a73.js",
+    "service-worker.js": "/clicky_game/service-worker.js",
+    "static/css/main.c4e71275.chunk.css.map": "/clicky_game/static/css/main.c4e71275.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.72488328.js",
+    "static/js/runtime-main.510c5f55.js",
     "static/js/2.c6b60a1d.chunk.js",
     "static/css/main.c4e71275.chunk.css",
-    "static/js/main.d4388b7a.chunk.js"
+    "static/js/main.9b6b4135.chunk.js"
   ]
 }
