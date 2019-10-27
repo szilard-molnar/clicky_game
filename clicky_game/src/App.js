@@ -37,7 +37,6 @@ clickedArcher = (id) => {
       }
       else if(character.id===id && character.clicked === true)
       {
-        character.clicked = false;
         this.gameOver();
         this.gameReset();
       }
@@ -50,7 +49,10 @@ gameReset = () => {
   //alert("let's reset the game");
   this.setState({
     score: 0,
-    clickedCards: []
+    clickedCards: [],
+    characters: characters.map(character => {
+      character.clicked = false;
+    })
   });
 }
 
