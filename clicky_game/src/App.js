@@ -9,7 +9,8 @@ class App extends Component {
   state = {
     characters: characters,
     score: 0,
-    highscore: 0
+    highscore: 0,
+    clickedCards: []
   }
 
 clickEvent = (id) => {
@@ -25,10 +26,20 @@ clickedArcher = (id) => {
       {
         //alert("this one exist " + id);
         character.clicked = true;
+        this.setState({
+          score: this.state.score + 1,
+          highscore: Math.max(this.state.score +1 , this.state.highscore)
+        })
+        const clickedCardsCopy = this.state.clickedCards;
+        clickedCardsCopy.push(character.id);
+        this.setState({clickedCards: clickedCardsCopy});
+        this.gameWin();
       }
       else if(character.id===id && character.clicked === true)
       {
+        character.clicked = false;
         this.gameOver();
+        this.gameReset();
       }
     })
   })
@@ -37,13 +48,24 @@ clickedArcher = (id) => {
 
 gameReset = () => {
   //alert("let's reset the game");
-  this.setState({score: 0});
+  this.setState({
+    score: 0,
+    clickedCards: []
+  });
 }
 
 gameOver = () => {
   alert("you lost");
   this.gameReset();
   //also need to shake wrapper
+}
+
+gameWin = () => {
+  if(this.state.clickedCards.length === this.state.characters.length)
+  {
+    alert("Congratulations, you win!");
+    this.gameReset();
+  }
 }
 
 shuffleArcher = (id) => {
@@ -56,12 +78,8 @@ shuffleImages = (arr) =>
     return arr.sort((a,b)=>Math.floor(Math.random()*1000)>500?1:-1);
 }
 
-updateScore = () => {
-
-}
-
-
 render() {
+  console.log(this.state.clickedCards);
   return (
     <Wrapper>
       <Title score={this.state.score} highscore={this.state.highscore}>Memory Game with React</Title>
