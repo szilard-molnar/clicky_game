@@ -84,7 +84,7 @@ render() {
   console.log(this.state.clickedCards);
   return (
     <Wrapper>
-      <Title score={this.state.score} highscore={this.state.highscore}>Memory Game with React</Title>
+      <Title score={this.state.score} highscore={this.state.highscore}>Click Archer!!!</Title>
       {characters.map(
         character => (
           <Card 
